@@ -59,14 +59,35 @@ ul, li, p {
 }
 
 .items {
+    margin-top: 3px;
     list-style: decimal;
     list-style-position: inside;
-    padding-right: 10px;
-    border: solid 2px red;
+    padding-left: 0.4rem;
+    color: grey;
+    
 }
 
-.line{
-    display: inline-flex;
-    justify-items: center;
-    border: solid 2px blue;
+.items a{
+    color: black;
 }
+
+.items p{
+    padding-left: 2rem;
+}
+
+.items a:link{
+    color: gray;
+    font-size: 0.7rem;
+}
+
+.items p a:link{
+    color: gray;
+    font-size: 0.6rem;
+}
+
+.items p a{
+    color: gray;
+    font-size: 0.6rem;
+}
+
+
